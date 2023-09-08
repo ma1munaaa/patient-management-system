@@ -6,11 +6,10 @@ The Patient Management System is designed to streamline patient-related operatio
 
 ### Key Features
 
-- Add and manage patient records, including name, email, and room assignments.
-- Assign rooms to patients.
+- Add and manage patient records, including name, email,address,age
 - Schedule and manage appointments with doctors.
 - Issue and manage prescriptions for patients.
-- Generate reports on patient and appointment data.
+
 
 
 ## Getting Started
@@ -31,7 +30,7 @@ Before you begin, ensure you have met the following requirements:
    ```bash
    git clone https://github.com/ma1munaaa/patient-management-system.git
 
-    Use the available commands to perform actions such as adding patients, assigning rooms, scheduling appointments, and issuing prescriptions.
+    Use the available commands to perform actions such as creating patients, scheduling appointments, and issuing prescriptions.
 
  ### Commands
  - run python3 main.py in the terminal to get a list of commands
