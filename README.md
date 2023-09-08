@@ -34,14 +34,16 @@ Before you begin, ensure you have met the following requirements:
     Use the available commands to perform actions such as adding patients, assigning rooms, scheduling appointments, and issuing prescriptions.
 
  ### Commands
-
- -add_patient_cli: Add a new patient record.
-- get_patient_cli: Retrieve patient details by patient ID.
- - list_patients_cli: List all patients.
- - add_room_cli: Assign a room to a patient.
-- add_appointment_cli: Schedule a new appointment.
-- get_appointment_cli: Retrieve appointment details by appointment ID.
-- add_prescription_cli: Issue a prescription to a patient.
+ - run python3 main.py in the terminal to get a list of commands
+  -create-appointment
+  -create-doctor
+  -create-patient
+  -create-prescription
+  -create-tables
+  -list-appointments
+  -list-doctors
+  -list-patients
+  -list-prescriptions
 
 ## Author
 *Maimuna Mohamud*
