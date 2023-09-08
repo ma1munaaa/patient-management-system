@@ -35,15 +35,15 @@ Before you begin, ensure you have met the following requirements:
 
  ### Commands
  - run python3 main.py in the terminal to get a list of commands
-  -create-appointment
-  -create-doctor
-  -create-patient
-  -create-prescription
-  -create-tables
-  -list-appointments
-  -list-doctors
-  -list-patients
-  -list-prescriptions
+ - create-appointment
+  - create-doctor
+  - create-patient
+  - create-prescription
+  - create-tables
+  - list-appointments
+  - list-doctors
+  - list-patients
+  - list-prescriptions
 
 ## Author
 *Maimuna Mohamud*
