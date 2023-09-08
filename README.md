@@ -25,7 +25,7 @@ Before you begin, ensure you have met the following requirements:
 
 ### Installation
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine: 
 
    ```bash
    git clone https://github.com/ma1munaaa/patient-management-system.git
