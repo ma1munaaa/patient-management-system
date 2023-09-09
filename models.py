@@ -15,7 +15,7 @@ class Patient(Base):
 
     # Define the relationship with appointments
     appointments = relationship("Appointment", back_populates="patient")
-    prescriptions = relationship("Prescription", back_populates="patient")
+    prescriptions = relationship("Prescription", back_populates="patient") 
 
 class Doctor(Base):
     __tablename__ = 'doctors'
