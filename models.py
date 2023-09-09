@@ -39,7 +39,6 @@ class Appointment(Base):
     status = Column(String)
     remarks = Column(String)
 
-    # Define the backrefs for appointments
     patient = relationship("Patient", back_populates="appointments")
     doctor = relationship("Doctor", back_populates="appointments")
 
@@ -54,6 +53,6 @@ class Prescription(Base):
     dosage = Column(String)
     instructions = Column(String)
 
-    # Define the backrefs for prescriptions
+ 
     patient = relationship("Patient", back_populates="prescriptions")
     doctor = relationship("Doctor", back_populates="prescriptions")
